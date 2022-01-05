@@ -1,0 +1,38 @@
+h1{
+  font-size: 50px;
+  color: indigo;
+  padding: 20px;
+  border-left: 3px solid blue;
+  font-family: 'Aladin', cursive;
+}
+
+p{
+font-family: 'Radley', serif;
+}
+
+span{
+  color: rgb(255, 3, 3);
+}
+
+.top-sec {
+  display: flex;
+}
+
+.div-part {
+  width: 50%;
+  margin-left: 80px;
+}
+
+.div-part img { 
+  width: 85%; 
+}
+
+.button-part{
+  text-decoration: none;
+  font-weight: 700;
+  background-color: rgb(7, 255, 28);
+  padding: 10px;
+  color:white;
+  border-radius: 8px;
+  
+}
