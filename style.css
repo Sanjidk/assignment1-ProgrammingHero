@@ -1,8 +1,6 @@
 body{
   margin: 0px;
-  padding: 0px;
 }
-
 
 h1 {
   font-size: 50px;
@@ -23,6 +21,19 @@ h3 {
   font-family: "Archivo Black", sans-serif;
 }
 
+h4{
+  text-align: center;
+  font-size: 30px;
+  font-family: "Aladin", cursive;
+  color: aliceblue;
+}
+
+h6{
+  font-size: 12px;
+  text-align: center;
+  color:aliceblue;
+}
+
 p {
   font-size: 17px;
   font-family: cursive;
@@ -34,10 +45,14 @@ span {
   color: rgb(255, 3, 3);
 }
 
+footer{
+  padding: 20px;
+  height: 130px;
+  background-color: rgb(15, 14, 14);
+}
+
 .sec-part {
   display: flex;
-  margin-left: 30px;
-  margin-right: 30px;
 
 }
 
@@ -59,9 +74,14 @@ span {
   background-repeat: no-repeat;
   background-position: right;
   margin-right: 0px;
+
 }
 
 .develop-sec{
+  margin-top: 80px;
+}
+
+.mrg-div{
   margin-top: 80px;
 }
 
@@ -88,3 +108,28 @@ span {
 .middle-div img {
   width: 50%;
 }
+
+.hs-div{
+  width:50%;
+  margin: 30px;
+  padding: 40px;
+  box-shadow: 10px 10px 10px aqua;
+  border-left: 6px solid;
+  border-image: linear-gradient(red, rgb(59, 24, 255));
+  border-image-slice: 1;
+  border-radius: 5px;
+
+}
+
+.hs-div img{
+  width: 40%;
+}
+
+.dev-pic{
+  background-image: url(images/shapes/bg1.jpg) ;
+  background-repeat: no-repeat;
+  background-position:100%;
+  margin: 0px;
+
+}
+
