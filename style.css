@@ -1,4 +1,4 @@
-body{
+body {
   margin: 0px;
 }
 
@@ -21,17 +21,17 @@ h3 {
   font-family: "Archivo Black", sans-serif;
 }
 
-h4{
+h4 {
   text-align: center;
   font-size: 30px;
   font-family: "Aladin", cursive;
   color: aliceblue;
 }
 
-h6{
+h6 {
   font-size: 12px;
   text-align: center;
-  color:aliceblue;
+  color: aliceblue;
 }
 
 p {
@@ -45,7 +45,7 @@ span {
   color: rgb(255, 3, 3);
 }
 
-footer{
+footer {
   padding: 20px;
   height: 130px;
   background-color: rgb(15, 14, 14);
@@ -53,7 +53,6 @@ footer{
 
 .sec-part {
   display: flex;
-
 }
 
 .div-part {
@@ -65,23 +64,22 @@ footer{
   width: 90%;
 }
 
-.extra-img img{
+.extra-img img {
   width: 75%;
 }
 
-.bg-img{
+.bg-img {
   background-image: url(images/shapes/dream-bg.png);
   background-repeat: no-repeat;
   background-position: right;
   margin-right: 0px;
-
 }
 
-.develop-sec{
+.develop-sec {
   margin-top: 80px;
 }
 
-.mrg-div{
+.mrg-div {
   margin-top: 80px;
 }
 
@@ -102,15 +100,26 @@ footer{
   margin: 15px;
   padding: 40px;
   border-radius: 30px;
-  
 }
 
 .middle-div img {
   width: 50%;
 }
 
-.hs-div{
-  width:50%;
+.divf {
+  background-color: rgb(228, 255, 237);
+}
+
+.divs {
+  background-color: rgb(253, 238, 251);
+}
+
+.divt {
+  background-color: rgb(224, 224, 255);
+}
+
+.hs-div {
+  width: 50%;
   margin: 30px;
   padding: 40px;
   box-shadow: 10px 10px 10px aqua;
@@ -118,18 +127,15 @@ footer{
   border-image: linear-gradient(red, rgb(59, 24, 255));
   border-image-slice: 1;
   border-radius: 5px;
-
 }
 
-.hs-div img{
+.hs-div img {
   width: 40%;
 }
 
-.dev-pic{
-  background-image: url(images/shapes/bg1.jpg) ;
+.dev-pic {
+  background-image: url(images/shapes/bg1.jpg);
   background-repeat: no-repeat;
-  background-position:100%;
+  background-position: 100%;
   margin: 0px;
-
 }
-
